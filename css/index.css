@@ -1,0 +1,183 @@
+/* Шрифт для всей страницы */
+body {
+    font-family: 'Inter', sans-serif;
+}
+/* Цвет текста у ссылок для всей страницы */
+body a {
+    color: #717171;
+}
+/* Стили для шапки */
+.header {
+    background: #000; 
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    column-gap: 80px;
+}
+.nav-list {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #717171;
+    
+}
+
+.nav-list ul {
+ display: flex;
+column-gap: 30px;
+
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.watermark ul{
+    display: flex;
+    flex-direction: column;
+    color: #717171;
+    font-size: 15px;
+    line-height: 29px;
+}
+/* Стили для основной секции */
+.main-section {
+    width: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    flex-wrap: wrap;
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.main-title {
+    padding-top: 40px;
+    color: #490E84;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+}
+.main-img img{
+    width: 500px;
+}
+.main-btn {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #717171;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+}
+.main-form {
+    display: flex;
+    width: 1300px;
+    height: 650px;
+    margin-bottom: 100px;
+    
+}
+.form-left-side {
+    background-color: #574B63;
+    width: 650px;
+    
+
+}
+.form-header {
+    padding-top: 90px;
+    padding-left: 80px;
+    width: 500px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 39px;
+    color: #FFF;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFF;
+
+}
+.form-container p{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.form-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 293px;
+    height: 67px;
+    border-radius: 30px;
+    background: #FFF; 
+    color: #490E84;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+.form-input::placeholder{
+   opacity: 0.5;
+    color: #FFF;
+
+}
+
+.underline-input {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: block;
+    width: 350px;
+    border: 1px solid #F5F5F5;
+}
+.form-right-side {
+    background-color: #000;
+}
+.form-right-side img{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Стили для подвала */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.footer-container{
+    height: 90px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+

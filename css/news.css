@@ -1,0 +1,117 @@
+/* Шрифт для всей страницы */
+body {
+    font-family: 'Inter', sans-serif;
+}
+/* Цвет текста у ссылок для всей страницы */
+body a {
+    color: #717171;
+}
+/* Стили для шапки */
+.header {
+    background: #000; 
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    column-gap: 80px;
+}
+.nav-list {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    color: #717171;
+    
+}
+
+.nav-list ul {
+ display: flex;
+column-gap: 30px;
+
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.watermark ul{
+    display: flex;
+    flex-direction: column;
+    color: #717171;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+/* Стили для основной секции */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-section-container{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.main-header {
+    display: flex;
+    justify-content: center;
+    color: #490E84;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 44px;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 190px;
+}
+.main-text {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+.main-text-strong {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+.container-image {
+    width: 350px;
+    height: 370px;
+}
+.container-image img {
+    width: 350px;
+    height: 370px;
+}
+/* Стили для подвала */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.footer-container{
+    height: 90px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
